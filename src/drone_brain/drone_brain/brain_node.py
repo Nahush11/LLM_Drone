@@ -1,9 +1,4 @@
-#!/usr/bin/env python3
-# ============================================================
-#  brain_node.py  —  LAPTOP side (publisher + LLM)
-#  You type text -> LLM turns it into an action -> publish it
-#  on /drone_command for the Pi to receive.
-# ============================================================
+
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
@@ -13,19 +8,11 @@ import json
 OLLAMA_URL = "http://localhost:11434/api/generate"
 MODEL = "qwen2.5:3b"
 
-SYSTEM_PROMPT = """You are a drone command translator. The drone can do these actions ONLY:
+SYSTEM_PROMPT = """
 - hover : take off and hold position
 - spiral : fly an upward spiral
 - land : land the drone
-- takeoff : take off to a height
-
-Reply with ONLY a JSON object, nothing else.
-The JSON must have exactly one field "action" whose value is one of: hover, spiral, land, takeoff.
-
-Example:
-User: can you do a spiral thing
-You: {"action": "spiral"}
-"""
+- takeoff : take off to a height"""
 
 
 class BrainNode(Node):
