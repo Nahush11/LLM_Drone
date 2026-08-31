@@ -1,0 +1,8 @@
+.vscode/
+src/.vscode/
+*.db
+*.db.lock
+build/
+install/
+log/
+__pycache__/
