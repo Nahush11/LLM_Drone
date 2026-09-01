@@ -8,7 +8,7 @@ circle, and spiral  using a Vicon motion-capture system for positioning.
 
 ---
 
-## What this project actually is (and isn't)
+## What this project actually is
 
 **What it is:** You type a plain-English command like *"do a spiral"* or
 *"fly a circle"*. A local LLM reads your words and figures out **which**
