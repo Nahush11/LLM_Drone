@@ -102,17 +102,10 @@ The LLM maps your natural language to one of these tested maneuvers:
 | "hover", "take off and hold" | **Hover** — take off, hold position, land |
 | "do a circle", "fly around" | **Circle** — flat circular path |
 | "do a spiral", "spin upward" | **Spiral** — upward spiral climb |
-| "land", "come down" | **Land** |
+
 
 ---
 
 
-
-## Repository structure
-
-- `main` branch — laptop side: the LLM "brain" node + Gazebo simulation
-- `pi-code` branch — Raspberry Pi side: the flight execution node
-
----
 
 *University project — Design and Control of UAVs.*
