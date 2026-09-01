@@ -17,7 +17,7 @@ flight autonomously.
 
 
 
-Think of the LLM as a smart translator between you and the drone — not an
+Think of the LLM as a smart translator between you and the drone. It's not an
 autopilot that makes up flight on its own.
 
 ---
