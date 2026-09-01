@@ -36,7 +36,10 @@ https://github.com/user-attachments/assets/a2c38877-7abf-48cd-a8c0-480d045f5fca
 ### Circle
 
 
-https://github.com/user-attachments/assets/16c35d0d-173e-4206-92fa-c31ed2295521
+
+
+https://github.com/user-attachments/assets/8114b1ea-f104-47e2-a598-ff4390bcd5f6
+
 
 
 ### Spiral
@@ -47,7 +50,10 @@ https://github.com/user-attachments/assets/113afaa5-8083-4514-81ce-e6485d418ed1
 
 
 
-https://github.com/user-attachments/assets/816ab3f4-693b-42b7-9135-0d0eb92c11b6
+
+
+https://github.com/user-attachments/assets/be2c5041-15b6-4bb6-a33c-23828ac5a4f7
+
 
 
 
@@ -97,7 +103,7 @@ You type: "do a spiral"
 
 The LLM maps your natural language to one of these tested maneuvers:
 
-| You can say... | Maneuver |
+| Commands | Maneuver |
 |----------------|----------|
 | "hover", "take off and hold" | **Hover** — take off, hold position, land |
 | "do a circle", "fly around" | **Circle** — flat circular path |
